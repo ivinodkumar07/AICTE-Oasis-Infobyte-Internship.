@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", Roboto, monospace;
+    border-radius: 20px;
+  }
+
+body {
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 25px;
+    background-color: rgb(26, 24, 26);
+}
+
+#main {
+    text-align: left;
+    color: #ffffff;
+}
+
+#title {
+    text-align: center;
+    font-size: 45px;
+}
+
+#quote {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#img-div {
+    margin: auto;
+}
+
+img {
+    display: block;
+}
+
+#image {
+    width: 60%;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#img-caption {
+    text-align: center;
+}
+
+#about{
+    margin-left: 25px;
+}
+#headline {
+    margin-left: 25px;
+}
+
+#margin {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+#margin1 {
+    margin-left: 40px;
+}
+
+a {
+    color: rgb(105, 197, 207);
+    text-decoration: none;
+    font-size: 19px;
+}
+
+a:hover {
+    color: rgb(216, 123, 80);
+}
+
+.footer__bar {
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }  
+  
