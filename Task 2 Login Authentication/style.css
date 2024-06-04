@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./img.jpg);
+    color: #ffffff;
+    border:2px solid #000000;
+  }
+
+  #registerLink{
+    text-decoration: underline;
+    color: #0f35b3;
+  }
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 55px;
+    border: 2px solid #890505;
+    border-radius: 25px;
+    margin-top: 80px;
+  }
+  
+  .container h1 {
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  button {
+    background-color: #128df2;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+
+  #signinLink{
+    text-decoration: underline;
+    color: #0f35b3;
+  
+  }
+  .error {
+    color: rgb(246, 18, 18);
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
